@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    
+Documentation    Suites de testes referente a aplicacao Todomvc
 Resource         Todomvc_resources.robot
 Test Setup       Abrir o navegador
 Test Teardown    Fechar o navegador

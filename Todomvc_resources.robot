@@ -138,7 +138,6 @@ Limpar as atividades Concluídas
     Click Element                    xpath=${BTT_CLEAR_COMPLETED} 
     Capture Page Screenshot          apos_clique_completed.png 
 
-*** Keywords ***
 Verificar que as 3 atividades inseridas estão em tela
     [Documentation]    Verifica se exatamente as três atividades estão na lista e a quarta não está.
     Wait Until Element Is Visible     xpath=//ul[@class='todo-list']    timeout=5s
